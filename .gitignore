@@ -1,6 +1,33 @@
+# Python caches and local virtual environments
 __pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local tooling and dependencies
+node_modules/
+.sites-runtime/
 .impeccable/review/
 .impeccable/mocks/
-.sites-runtime/
-node_modules/
+
+# Secrets and machine-specific configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# Editor, operating system, and temporary files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.log
 *.zip
+
+# Keep dist/ tracked: its assets and printable PDFs are source files.

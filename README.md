@@ -20,6 +20,16 @@ Student pages work without JavaScript. JavaScript adds filtering, notes, print c
 
 Edit `content.py` for task content and artist metadata, or `lessons.py` for teacher lesson plans, then run `python3 build.py` to regenerate the 28 HTML pages. Edit `dist/assets/site.css` and `dist/assets/site.js` directly for presentation and interactions. No dependency installation or web build is required. After changing lesson content or print styles, run `node scripts/print-lessons.mjs` to refresh the downloadable PDFs (requires Chromium).
 
+## GitHub Pages
+
+Live site: https://zhitchcock77.github.io/ncea-art/
+
+Repository: https://github.com/zhitchcock77/ncea-art
+
+Every push to `main` runs `.github/workflows/deploy-pages.yml`, rebuilds the HTML with `python3 build.py`, and publishes `dist/` to GitHub Pages. You can also run the workflow manually from the repository’s **Actions** tab. Repository **Settings → Pages → Build and deployment → Source** must be set to **GitHub Actions**.
+
+Keep `dist/` in version control: it includes the hand-edited CSS and JavaScript, licensed images and fonts, and generated lesson PDFs. The deployment rebuilds HTML only; after changing lesson content or print styles, refresh the PDFs locally with `node scripts/print-lessons.mjs` and commit them before pushing. All internal links are relative so they work under the `/ncea-art/` project path.
+
 ## Teacher access
 
 The teacher page, lesson-plan pages and teacher notes on task sheets require the shared teacher password. The browser compares a SHA-256 hash; the password itself is not stored in the site files. Access is remembered in session storage for the current tab. Use **Lock teacher area** before sharing the tab. If browser storage is unavailable, unlocking still works for the current page.
