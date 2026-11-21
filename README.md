@@ -8,7 +8,7 @@ Open **dist/index.html** directly, or serve `dist` with `python3 -m http.server 
 
 - Level 1, 2 and 3 overview pages.
 - Nine individual task sheets: 1.2–1.4, 2.2–2.4 and 3.2–3.4.
-- 22 artist models: seven contemporary Māori, three other contemporary Aotearoa, five contemporary international and seven historical connections.
+- 24 artist models: seven contemporary Māori, five other contemporary Aotearoa, five contemporary international and seven historical connections.
 - Contemporary models integrated into every task sheet, with practical painting investigations, primary source links and selected artist films.
 - Licensed or unrestricted example images, teacher guidance and NZQA sources.
 - Twelve 50-minute teacher lesson plans for 1.2, with individual PDFs and a complete 26-page A4 pack.

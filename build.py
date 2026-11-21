@@ -78,11 +78,14 @@ for group_id, group_title, group_intro, keys in ARTIST_GROUPS:
   a=ARTISTS[key]
   related=[t for t in TASKS if key in t['artists']]
   used_in='<p class="small artist-tasks">Use with: '+ ' · '.join(link(filename(t),t['ref']) for t in related)+'</p>' if related else ''
-  source=link(a['url'],e(a.get('source_label','Visit the artist resource')),'text-action')
+  artwork_url=a.get('artwork_url',a['url'])
+  artwork_label=a.get('artwork_label',a.get('source_label','Artist resource'))
+  artworks=link(artwork_url,e('View artworks · '+artwork_label),'text-action')
+  source='<p class="small">'+link(a['url'],e(a.get('source_label','Artist resource')))+'</p>' if artwork_url != a['url'] else ''
   film='<p class="small">'+link(a['video'],'Watch the artist / studio film')+'</p>' if a.get('video') else ''
   experiment='<p class="artist-investigation"><strong>Painting investigation:</strong> '+e(a['investigation'])+'</p>' if a.get('investigation') else '<p class="small">Compare a pictorial decision here with a contemporary model, then test a related method using your own subject.</p>'
   identity=f'''<div class="artist-identity"><h3>{e(a['name'])}</h3><p class="artist-place">{e(a['place'])}</p>{used_in}</div>'''
-  exploration=f'''<div class="artist-exploration"><p>{e(a['focus'])}</p>{experiment}<p>{source}</p>{film}</div>'''
+  exploration=f'''<div class="artist-exploration"><p>{e(a['focus'])}</p>{experiment}<p>{artworks}</p>{source}{film}</div>'''
   if a.get('image'):
    entries+=f'''<article class="artist-study" id="{key}">{figure(key)}<div>{identity}{exploration}</div></article>'''
   else:

@@ -2,14 +2,14 @@
 NZQA = 'https://www2.nzqa.govt.nz/ncea/subjects/past-exams-and-exemplars/visual-arts/'
 SPEC = 'https://www.nzqa.govt.nz/nqfdocs/ncea-resource/specifications/2026/'
 ARTISTS = {
- 'hodgkins': dict(name='Frances Hodgkins',place='Aotearoa New Zealand / Britain',url='https://christchurchartgallery.org.nz/collection/79-425/frances-hodgkins/still-life',focus='Look at how still-life objects and landscape can share a painted space. Try shifting the relationship between an object, its surroundings and its colour.',image='hodgkins.jpg',caption='Still Life in a Landscape, c. 1928',credit='The MFAT Collection. Source: New Zealand Parliament. No known copyright restrictions.',rights='https://www3.parliament.nz/en/get-involved/features/parliament-s-art-collection-online-digitising-the-mfat-collection/',alt='Frances Hodgkins painting of a vase of pink flowers, vessels and fruit set against a loosely painted landscape.'),
- 'gully': dict(name='John Gully',place='Aotearoa New Zealand',url='https://collections.tepapa.govt.nz/object/41546',focus='Compare the light foreground, middle distance and mountains. Experiment with tonal steps and a limited palette to make space in your own observed place. Ask whose view of the landscape is represented.',image='gully.jpg',caption='Landscape 1873, 1873',credit='Museum of New Zealand Te Papa Tongarewa. No Known Copyright Restrictions.',rights='https://collections.tepapa.govt.nz/object/41546',alt='John Gully watercolour of a rocky mountain ravine, a waterfall and a bare foreground tree.'),
- 'cezanne': dict(name='Paul Cézanne',place='France',url='https://artsandculture.google.com/asset/the-basket-of-apples-0013/pAHeFzndAEYcNA',focus='Study the tilted table, overlapping forms and repeated touches of colour in The Basket of Apples. Investigate how a stable object can sit inside an unsettled picture space.',image='cezanne.jpg',caption='The Basket of Apples, c. 1893',credit='Art Institute of Chicago, 1926.252. CC0 reproduction via Wikimedia Commons.',rights='https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg',alt='Cézanne still life showing a tilted basket of apples, a dark bottle, white cloth and a plate on a wooden table.'),
- 'angus': dict(name='Rita Angus',place='Aotearoa New Zealand',url='https://collections.tepapa.govt.nz/object/43394',focus='Look at Flight. Consider how carefully observed objects and a particular place can carry a personal response to change. Use your own objects, observations and experiences to find a different narrative.'),
- 'white': dict(name='Dame Robin White',place='Contemporary Māori · Aotearoa New Zealand',url='https://www.aucklandartgallery.com/explore/stories-and-voices/artist-profile-robin-white-or-kahua-ringatoi-robin-white',focus='Use the gallery profile to investigate White’s relationship to people, places and collaboration. Look for clear shapes and intentional relationships between figure and setting; transfer a pictorial method to your own subject.'),
- 'mccahon': dict(name='Colin McCahon',place='Aotearoa New Zealand',url='https://collections.tepapa.govt.nz/topic/947',focus='Follow the museum biography into the paintings. Investigate the relationships between landscape, intervals of light and dark, and text. If you use words, write your own and test their role as both image and meaning.'),
- 'monet': dict(name='Claude Monet',place='France',url='https://www.nationalgallery.org.uk/paintings/claude-monet-the-water-lily-pond',focus='Compare The Water-Lily Pond with other water-garden paintings linked by the National Gallery. Ask what changes when the horizon disappears or reflections become the subject. Work from your own location.'),
- 'klee': dict(name='Paul Klee',place='Switzerland / Germany',url='https://www.youtube.com/watch?v=fOe0A8oYQeM',focus='Watch Tate’s curator-led Making Visible tour. Explore how line, coloured divisions and a repeated motif can become a personal visual system. Translate one observed subject rather than copying a finished Klee painting.')
+ 'hodgkins': dict(name='Frances Hodgkins',place='Aotearoa New Zealand / Britain',url='https://christchurchartgallery.org.nz/collection/79-425/frances-hodgkins/still-life',source_label='Christchurch Art Gallery · Still Life',focus='Look at how still-life objects and landscape can share a painted space. Try shifting the relationship between an object, its surroundings and its colour.',image='hodgkins.jpg',caption='Still Life in a Landscape, c. 1928',credit='The MFAT Collection. Source: New Zealand Parliament. No known copyright restrictions.',rights='https://www3.parliament.nz/en/get-involved/features/parliament-s-art-collection-online-digitising-the-mfat-collection/',alt='Frances Hodgkins painting of a vase of pink flowers, vessels and fruit set against a loosely painted landscape.'),
+ 'gully': dict(name='John Gully',place='Aotearoa New Zealand',url='https://collections.tepapa.govt.nz/object/41546',source_label='Te Papa · Landscape 1873',artwork_url='https://christchurchartgallery.org.nz/collection/71-38/john-gully/golden-bay-nelson',artwork_label='Christchurch Art Gallery · Golden Bay, Nelson',focus='Compare the light foreground, middle distance and mountains. Experiment with tonal steps and a limited palette to make space in your own observed place. Ask whose view of the landscape is represented.',image='gully.jpg',caption='Landscape 1873, 1873',credit='Museum of New Zealand Te Papa Tongarewa. No Known Copyright Restrictions.',rights='https://collections.tepapa.govt.nz/object/41546',alt='John Gully watercolour of a rocky mountain ravine, a waterfall and a bare foreground tree.'),
+ 'cezanne': dict(name='Paul Cézanne',place='France',url='https://artsandculture.google.com/asset/the-basket-of-apples-0013/pAHeFzndAEYcNA',source_label='Google Arts & Culture · The Basket of Apples',focus='Study the tilted table, overlapping forms and repeated touches of colour in The Basket of Apples. Investigate how a stable object can sit inside an unsettled picture space.',image='cezanne.jpg',caption='The Basket of Apples, c. 1893',credit='Art Institute of Chicago, 1926.252. CC0 reproduction via Wikimedia Commons.',rights='https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg',alt='Cézanne still life showing a tilted basket of apples, a dark bottle, white cloth and a plate on a wooden table.'),
+ 'angus': dict(name='Rita Angus',place='Aotearoa New Zealand',url='https://collections.tepapa.govt.nz/object/43394',source_label='Te Papa · Flight',focus='Look at Flight. Consider how carefully observed objects and a particular place can carry a personal response to change. Use your own objects, observations and experiences to find a different narrative.'),
+ 'white': dict(name='Dame Robin White',place='Contemporary Māori · Aotearoa New Zealand',url='https://www.aucklandartgallery.com/explore/stories-and-voices/artist-profile-robin-white-or-kahua-ringatoi-robin-white',source_label='Auckland Art Gallery · artist profile',artwork_url='https://christchurchartgallery.org.nz/collection/75-45/robin-white/florence-and-harbour-cone',artwork_label='Christchurch Art Gallery · Florence and Harbour Cone',focus='Use the gallery profile to investigate White’s relationship to people, places and collaboration. Look for clear shapes and intentional relationships between figure and setting; transfer a pictorial method to your own subject.'),
+ 'mccahon': dict(name='Colin McCahon',place='Aotearoa New Zealand',url='https://collections.tepapa.govt.nz/topic/947',source_label='Te Papa · artist biography',artwork_url='https://christchurchartgallery.org.nz/collection/69-142/colin-mccahon/tomorrow-will-be-the-same-but-not-as-this-is',artwork_label='Christchurch Art Gallery · Tomorrow will be the same but not as this is',focus='Follow the museum biography into the paintings. Investigate the relationships between landscape, intervals of light and dark, and text. If you use words, write your own and test their role as both image and meaning.'),
+ 'monet': dict(name='Claude Monet',place='France',url='https://www.nationalgallery.org.uk/paintings/claude-monet-the-water-lily-pond',source_label='National Gallery · The Water-Lily Pond',focus='Compare The Water-Lily Pond with other water-garden paintings linked by the National Gallery. Ask what changes when the horizon disappears or reflections become the subject. Work from your own location.'),
+ 'klee': dict(name='Paul Klee',place='Switzerland / Germany',url='https://www.youtube.com/watch?v=fOe0A8oYQeM',source_label='Tate · Making Visible curator tour (film)',artwork_url='https://www.moma.org/collection/works/37347',artwork_label='MoMA · Twittering Machine',focus='Watch Tate’s curator-led Making Visible tour. Explore how line, coloured divisions and a repeated motif can become a personal visual system. Translate one observed subject rather than copying a finished Klee painting.')
 }
 ARTISTS.update({'green': {'name': 'Ayesha Green',
            'place': 'Contemporary Māori · Aotearoa New Zealand',
@@ -25,6 +25,8 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
             'place': 'Contemporary Māori · Aotearoa New Zealand',
             'url': 'https://www.sharjahart.org/en/press/details/sharjah-art-foundation-premieres-the-first-major-survey-exhibition-of-senior-maaori-artist-emily-karaka/',
             'source_label': 'Sharjah Art Foundation · Ka Awatea, A New Dawn',
+            'artwork_url': 'https://www.emilykaraka.com/gallery2',
+            'artwork_label': 'Artist’s official website · painting gallery',
             'focus': 'Karaka’s energetic colour, gesture and text connect painting with whenua, whānau and Māori '
                      'sovereignty. Investigate how the marks carry a political and personal position; read that '
                      'position alongside the painted surface.',
@@ -35,6 +37,8 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
             'place': 'Contemporary Māori · Aotearoa New Zealand',
             'url': 'https://gowlangsfordgallery.co.nz/artists/207-shane-cotton/',
             'source_label': 'Gow Langsford · artist profile and paintings',
+            'artwork_url': 'https://gowlangsfordgallery.co.nz/exhibitions/354-new-painting-shane-cotton/',
+            'artwork_label': 'Gow Langsford · New Painting exhibition',
             'focus': 'Cotton reworks historical references to investigate bicultural identity and colonisation. '
                      'Compare how recurring forms change meaning through placement, scale and surrounding space, '
                      'while keeping their particular cultural histories in view.',
@@ -56,6 +60,8 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
              'place': 'Contemporary Māori · Aotearoa New Zealand',
              'url': 'https://www.thearts.co.nz/artists/star-gossage',
              'source_label': 'The Arts Foundation Te Tumu Toi · artist profile',
+             'artwork_url': 'https://www.pagegalleries.co.nz/artists/238-star-gossage/works/',
+             'artwork_label': 'Page Galleries · selected paintings',
              'focus': 'Gossage’s figures, colour and material choices connect with whānau, whakapapa and her '
                       'ancestral home at Pākiri. Investigate how a painting can communicate remembered presence '
                       'rather than a purely literal likeness.',
@@ -66,6 +72,8 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
             'place': 'Contemporary Māori · Aotearoa New Zealand',
             'url': 'https://www.fondationcartier.com/en/collection/artists/nikau-hindin',
             'source_label': 'Fondation Cartier · artist profile and aute practice',
+            'artwork_url': 'https://jhanamillers.com/artists/nikau-hindin/',
+            'artwork_label': 'Jhana Millers · aute works',
             'focus': 'Hindin’s aute practice connects painting, barkcloth-making and Māori knowledge. Investigate '
                      'how the support, pigments and making process contribute to meaning, rather than treating '
                      'the painted surface as independent of its context.',
@@ -76,6 +84,8 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
           'place': 'Contemporary · Aotearoa New Zealand',
           'url': 'https://www.thearts.co.nz/artists/seraphine-pick',
           'source_label': 'The Arts Foundation Te Tumu Toi · artist profile',
+          'artwork_url': 'https://lett-thomas.com/artist/seraphine-pick/',
+          'artwork_label': 'Lett Thomas · selected paintings',
           'focus': 'Pick’s atmospheric painting investigates memory, the body and states of consciousness. '
                    'Compare how layered figures, shifts in colour and uncertain spaces can connect an external '
                    'scene with an internal experience.',
@@ -86,6 +96,8 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
           'place': 'Contemporary · Aotearoa New Zealand',
           'url': 'https://collection.qagoma.qld.gov.au/creators/bush-kushana',
           'source_label': 'QAGOMA · artist profile and collection',
+          'artwork_url': 'https://collection.qagoma.qld.gov.au/objects/31514',
+          'artwork_label': 'QAGOMA · Hark',
           'focus': 'Bush’s gouache paintings organise figures, gestures and intricate detail within a flattened '
                    'picture plane. Investigate how relationships between people and the repetition of forms can '
                    'suggest a narrative.',
@@ -95,11 +107,35 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
              'place': 'Contemporary · Aotearoa New Zealand',
              'url': 'https://gowlangsfordgallery.co.nz/artists/200-karl-maughan/',
              'source_label': 'Gow Langsford · artist profile and garden paintings',
+             'artwork_url': 'https://gowlangsfordgallery.co.nz/exhibitions/395-east-coast-karl-maughan/',
+             'artwork_label': 'Gow Langsford · East Coast exhibition',
              'focus': 'Maughan returns to gardens through saturated colour and carefully organised planting '
                       'forms. Compare how repeated attention to one subject can produce different spatial '
                       'relationships rather than a single repeated solution.',
              'investigation': 'Observe a garden you can access. Develop studies that alter the balance of dense '
                               'planting, open space and a route through the composition.'},
+ 'spence': {'name': 'RJ Spence',
+            'place': 'Contemporary · Ōtautahi Christchurch, Aotearoa New Zealand',
+            'url': 'https://rjspence.co.nz/',
+            'source_label': 'Artist’s official website · landscape paintings and biography',
+            'focus': 'Rebecca J Spence paints familiar Christchurch and Banks Peninsula places in oils, often '
+                     'at dusk or after dark. Investigate how tree masses, bridges, reflections and small points '
+                     'of light create atmosphere and organise a landscape.',
+            'investigation': 'Draw a familiar place from your own observation. Make two painted studies that '
+                             'change the balance of light and dark and the warmth of the colour. Compare how '
+                             'these choices alter the atmosphere while keeping the same composition.'},
+ 'dolan': {'name': 'Zara Dolan',
+           'place': 'Contemporary · Ōtautahi Christchurch, Aotearoa New Zealand',
+           'url': 'https://thecentral.co.nz/artists/zara-dolan/overview/',
+           'source_label': 'The Central · artist profile and monotype process',
+           'artwork_url': 'https://thecentral.co.nz/artists/zara-dolan/works/',
+           'artwork_label': 'The Central · selected monotypes',
+           'focus': 'Dolan’s monotypes use layered colour and sweeping, gestural marks to create rhythm and '
+                    'movement. Read about her printing process, then compare how overlapping marks and colour '
+                    'relationships can generate pictorial depth in both printmaking and painting.',
+           'investigation': 'Develop a set of your own brush marks from an observed movement. In painted studies, '
+                            'vary their direction, overlap and colour, allowing each layer to dry. Compare which '
+                            'relationships create tension, movement or calm.'},
  'mehretu': {'name': 'Julie Mehretu',
              'place': 'Contemporary · Ethiopia / United States',
              'url': 'https://whitney.org/exhibitions/julie-mehretu',
@@ -135,6 +171,8 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
               'place': 'Contemporary · United States',
               'url': 'https://art21.org/read/mark-bradford-politics-process-and-postmodernism/',
               'source_label': 'Art21 · artist interview on process and materials',
+              'artwork_url': 'https://www.hauserwirth.com/artists/2838-mark-bradford/',
+              'artwork_label': 'Hauser & Wirth · selected artworks',
               'focus': 'Bradford’s building-up and removal of paper connects material process with the social '
                        'life of a city. Read his account of collage and décollage, then ask how adding and '
                        'removing can each generate an idea.',
@@ -144,6 +182,8 @@ ARTISTS.update({'green': {'name': 'Ayesha Green',
            'place': 'Contemporary · Tanzania / United Kingdom',
            'url': 'https://venicebiennale.britishcouncil.org/sites/default/files/bcart26_guide_rgb.pdf',
            'source_label': 'British Council · 2026 British Pavilion guide (PDF)',
+           'artwork_url': 'https://hollybushgardens.co.uk/artists/lubaina-himid/',
+           'artwork_label': 'Hollybush Gardens · selected paintings',
            'focus': 'Himid’s 2026 paintings explore belonging and making a home through figures and imagined '
                     'settings. Study how relationships between people, painted space and everyday activity can '
                     'carry questions about identity and place.',
@@ -158,8 +198,8 @@ ARTIST_GROUPS = [('maori',
   ['green', 'karaka', 'cotton', 'rewiri', 'gossage', 'hindin', 'white']),
  ('aotearoa',
   'More contemporary Aotearoa artists',
-  'Painting approaches to figures, memory, gardens and the spaces around us.',
-  ['pick', 'bush', 'maughan']),
+  'Explore figures, memory, gardens, landscape, colour and gesture through painting and monotype.',
+  ['pick', 'bush', 'maughan', 'spence', 'dolan']),
  ('international',
   'Contemporary international artists',
   'Different approaches to abstraction, representation, materials and belonging.',
