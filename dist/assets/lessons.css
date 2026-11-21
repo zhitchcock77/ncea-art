@@ -1,0 +1,60 @@
+/* Teacher plans inherit the workbook; pages also serve as A4 print masters. */
+.lesson-page{--chapter:var(--cobalt);--chapter-light:var(--chapter-light-1)}
+.lesson-tools,.lesson-index,.lesson-neighbours,.lesson-screen-title{margin:2rem var(--space)}
+.lesson-tools{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.4rem}
+.lesson-tools p{flex-basis:100%;font-size:.9rem;max-width:70ch;margin:0}
+.lesson-index{max-width:70ch}
+.lesson-index h2{font-size:1.8rem}
+.lesson-screen-title{font-size:3rem;max-width:28ch}
+.lesson-index ol{padding-left:1.6rem}
+.lesson-index li{position:relative;padding:.65rem 3rem .65rem .2rem;border-bottom:1px solid var(--line)}
+.lesson-index li a:last-child{position:absolute;right:.2rem;top:.65rem;font-size:.86rem}
+.lesson-papers{max-width:900px;margin:3rem auto;padding:0 1.25rem}
+.lesson-paper{background:var(--white);border:1px solid var(--line);padding:2.5rem;margin-bottom:2rem;scroll-margin-top:1.5rem}
+.lesson-paper h2{font-size:2rem;line-height:1.2;color:var(--chapter)}
+.lesson-paper h3{font-size:1.12rem;margin:1.4rem 0 .45rem}
+.lesson-paper p,.lesson-paper li,.lesson-paper td{font-size:1rem;line-height:1.6}
+.lesson-paper p{margin-bottom:.8rem}
+.lesson-paper .lesson-meta{font-size:.86rem;color:var(--muted)}
+.lesson-admin{display:flex;flex-wrap:wrap;gap:.5rem .8rem;align-items:baseline}
+.lesson-admin span{flex:1;min-width:60px;border-bottom:1px solid var(--field-border,#8c877c)}
+.lesson-adapt{border-top:1px solid var(--line);margin-top:1.4rem}
+.lesson-writing>div{height:3rem;border-bottom:1px solid var(--line)}
+.lesson-paper .paper-footer{border-top:1px solid var(--line);margin:1.6rem 0 0;padding-top:.65rem;font-size:.8rem;color:var(--muted)}
+.lesson-timing,.lesson-map{width:100%;border-collapse:collapse;text-align:left}
+.lesson-timing th,.lesson-timing td,.lesson-map th,.lesson-map td{border-bottom:1px solid var(--line);padding:.7rem .5rem;vertical-align:top}
+.lesson-timing thead,.lesson-map thead{background:var(--chapter-light)}
+.lesson-timing th:first-child{width:125px}
+.lesson-timing th{font-size:.86rem;font-weight:600;font-variant-numeric:tabular-nums}
+.lesson-timing th span{display:block;font-weight:400;margin-top:.2rem}
+.lesson-map caption{text-align:left;font-weight:600;padding:.8rem 0}
+.lesson-map th{width:70px;font-variant-numeric:tabular-nums}
+.lesson-neighbours{display:flex;gap:1rem 2rem;flex-wrap:wrap;font-size:.9rem}
+.lesson-sources{overflow-wrap:anywhere}
+@media(max-width:720px){.lesson-paper{padding:1.2rem}.lesson-paper h2{font-size:1.65rem}.lesson-papers{margin-top:2rem;padding:0 var(--space)}.lesson-timing th:first-child{width:90px}.lesson-timing th,.lesson-timing td{padding:.6rem .25rem}.lesson-screen-title{font-size:2rem}.lesson-admin{font-size:.9rem!important}.lesson-tools .button{width:100%}.lesson-tools{align-items:stretch}.lesson-map th{width:50px}}
+@media print{
+ @page{size:A4;margin:14mm 15mm}
+ .screen-only{display:none!important}
+ .lesson-papers{max-width:none;margin:0;padding:0}
+ .lesson-paper{border:0;padding:0;margin:0;break-after:page}
+ .lesson-plan:last-child .lesson-paper:last-child{break-after:auto}
+ .lesson-paper h2{font-size:20pt!important;color:#000;margin:0 0 3mm}
+ .lesson-paper h3{font-size:11pt!important;margin:4mm 0 1.5mm}
+ .lesson-paper p,.lesson-paper li,.lesson-paper td{font-size:10pt;line-height:1.42}
+ .lesson-paper p{margin:0 0 2.5mm}
+ .lesson-paper ul{margin:1mm 0 3mm;padding-left:5mm}
+ .lesson-paper .lesson-meta{font-size:9pt;margin-bottom:5mm}
+ .lesson-admin{font-size:9pt!important;margin-bottom:5mm!important}
+ .lesson-adapt{margin-top:4mm;padding-top:0}
+ .lesson-writing>div{height:11mm}
+ .lesson-paper .paper-footer{font-size:8pt;color:#333;margin-top:5mm;padding-top:2mm}
+ .lesson-timing th,.lesson-timing td{padding:3mm 2mm}
+ .lesson-timing th:first-child{width:28mm}
+ .lesson-timing th{font-size:9pt}
+ .lesson-timing thead,.lesson-map thead{background:white}
+ .lesson-timing tr,.lesson-map tr{break-inside:avoid}
+ .lesson-map th,.lesson-map td{padding:1.7mm 2mm;font-size:9.5pt;line-height:1.3}
+ .lesson-map th{width:18mm}
+ .lesson-map caption{font-size:10pt;padding:2mm 0}
+ .lesson-sources a:after{content:' — ' attr(href);font-size:7.5pt;overflow-wrap:anywhere}
+}

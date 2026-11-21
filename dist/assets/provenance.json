@@ -1,0 +1,32 @@
+{
+  "checked": "2026-11-22",
+  "images": {
+    "hodgkins.jpg": {
+      "artist": "Frances Hodgkins",
+      "work": "Still Life in a Landscape",
+      "date": "c. 1928",
+      "collection": "The MFAT Collection",
+      "origin": "https://www3.parliament.nz/media/9838/sa902-still-life-in-a-landscape-painting-ca-1928-frances-hodgkins-low-res-1.jpg",
+      "rights": "No known copyright restrictions",
+      "rights_source": "https://www3.parliament.nz/en/get-involved/features/parliament-s-art-collection-online-digitising-the-mfat-collection/"
+    },
+    "gully.jpg": {
+      "artist": "John Gully",
+      "work": "Landscape 1873",
+      "date": "1873",
+      "collection": "Museum of New Zealand Te Papa Tongarewa",
+      "origin": "https://media.tepapa.govt.nz/collection/472936/preview",
+      "rights": "No Known Copyright Restrictions",
+      "rights_source": "https://collections.tepapa.govt.nz/object/41546"
+    },
+    "cezanne.jpg": {
+      "artist": "Paul Cézanne",
+      "work": "The Basket of Apples",
+      "date": "c. 1893",
+      "collection": "Art Institute of Chicago, 1926.252",
+      "origin": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg/1280px-Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg",
+      "rights": "CC0 1.0; underlying painting public domain",
+      "rights_source": "https://commons.wikimedia.org/wiki/File:Paul_C%C3%A9zanne_-_The_Basket_of_Apples_-_1926.252_-_Art_Institute_of_Chicago.jpg"
+    }
+  }
+}

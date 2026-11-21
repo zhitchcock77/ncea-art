@@ -1,0 +1,457 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-21T20:07:54.562336+00:00",
+  "title": "Design System: The Painting Room",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": [
+          "oklch(15% 0.0029 91.48)",
+          "oklch(27% 0.0049 91.48)",
+          "oklch(39% 0.0070 91.48)",
+          "oklch(51% 0.0082 91.48)",
+          "oklch(63% 0.0082 91.48)",
+          "oklch(75% 0.0066 91.48)",
+          "oklch(87% 0.0041 91.48)",
+          "oklch(95% 0.0016 91.48)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(15% 0.0019 95.10)",
+          "oklch(27% 0.0032 95.10)",
+          "oklch(39% 0.0046 95.10)",
+          "oklch(51% 0.0054 95.10)",
+          "oklch(63% 0.0054 95.10)",
+          "oklch(75% 0.0043 95.10)",
+          "oklch(87% 0.0027 95.10)",
+          "oklch(95% 0.0011 95.10)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.0045 93.88)",
+          "oklch(27% 0.0077 93.88)",
+          "oklch(39% 0.0109 93.88)",
+          "oklch(51% 0.0128 93.88)",
+          "oklch(63% 0.0128 93.88)",
+          "oklch(75% 0.0103 93.88)",
+          "oklch(87% 0.0064 93.88)",
+          "oklch(95% 0.0026 93.88)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "tonalRamp": [
+          "oklch(15% 0.0056 93.14)",
+          "oklch(27% 0.0096 93.14)",
+          "oklch(39% 0.0137 93.14)",
+          "oklch(51% 0.0161 93.14)",
+          "oklch(63% 0.0161 93.14)",
+          "oklch(75% 0.0129 93.14)",
+          "oklch(87% 0.0080 93.14)",
+          "oklch(95% 0.0032 93.14)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "tonalRamp": [
+          "oklch(15% 0.0049 93.00)",
+          "oklch(27% 0.0084 93.00)",
+          "oklch(39% 0.0119 93.00)",
+          "oklch(51% 0.0140 93.00)",
+          "oklch(63% 0.0140 93.00)",
+          "oklch(75% 0.0112 93.00)",
+          "oklch(87% 0.0070 93.00)",
+          "oklch(95% 0.0028 93.00)"
+        ]
+      },
+      "pink": {
+        "role": "primary",
+        "displayName": "Pink",
+        "tonalRamp": [
+          "oklch(15% 0.0646 6.10)",
+          "oklch(27% 0.1107 6.10)",
+          "oklch(39% 0.1568 6.10)",
+          "oklch(51% 0.1845 6.10)",
+          "oklch(63% 0.1845 6.10)",
+          "oklch(75% 0.1476 6.10)",
+          "oklch(87% 0.0922 6.10)",
+          "oklch(95% 0.0369 6.10)"
+        ]
+      },
+      "cobalt": {
+        "role": "primary",
+        "displayName": "Cobalt",
+        "tonalRamp": [
+          "oklch(15% 0.0601 266.36)",
+          "oklch(27% 0.1031 266.36)",
+          "oklch(39% 0.1460 266.36)",
+          "oklch(51% 0.1718 266.36)",
+          "oklch(63% 0.1718 266.36)",
+          "oklch(75% 0.1374 266.36)",
+          "oklch(87% 0.0859 266.36)",
+          "oklch(95% 0.0344 266.36)"
+        ]
+      },
+      "orange": {
+        "role": "primary",
+        "displayName": "Orange",
+        "tonalRamp": [
+          "oklch(15% 0.0521 34.93)",
+          "oklch(27% 0.0894 34.93)",
+          "oklch(39% 0.1266 34.93)",
+          "oklch(51% 0.1489 34.93)",
+          "oklch(63% 0.1489 34.93)",
+          "oklch(75% 0.1191 34.93)",
+          "oklch(87% 0.0745 34.93)",
+          "oklch(95% 0.0298 34.93)"
+        ]
+      },
+      "yellow": {
+        "role": "secondary",
+        "displayName": "Yellow",
+        "tonalRamp": [
+          "oklch(15% 0.0443 111.07)",
+          "oklch(27% 0.0760 111.07)",
+          "oklch(39% 0.1077 111.07)",
+          "oklch(51% 0.1267 111.07)",
+          "oklch(63% 0.1267 111.07)",
+          "oklch(75% 0.1013 111.07)",
+          "oklch(87% 0.0633 111.07)",
+          "oklch(95% 0.0253 111.07)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft",
+        "tonalRamp": [
+          "oklch(15% 0.0046 82.40)",
+          "oklch(27% 0.0079 82.40)",
+          "oklch(39% 0.0112 82.40)",
+          "oklch(51% 0.0132 82.40)",
+          "oklch(63% 0.0132 82.40)",
+          "oklch(75% 0.0105 82.40)",
+          "oklch(87% 0.0066 82.40)",
+          "oklch(95% 0.0026 82.40)"
+        ]
+      },
+      "chapter-light-1": {
+        "role": "secondary",
+        "displayName": "Chapter Light 1",
+        "tonalRamp": [
+          "oklch(15% 0.0065 265.98)",
+          "oklch(27% 0.0112 265.98)",
+          "oklch(39% 0.0159 265.98)",
+          "oklch(51% 0.0187 265.98)",
+          "oklch(63% 0.0187 265.98)",
+          "oklch(75% 0.0149 265.98)",
+          "oklch(87% 0.0093 265.98)",
+          "oklch(95% 0.0037 265.98)"
+        ]
+      },
+      "chapter-light-2": {
+        "role": "secondary",
+        "displayName": "Chapter Light 2",
+        "tonalRamp": [
+          "oklch(15% 0.0101 60.76)",
+          "oklch(27% 0.0173 60.76)",
+          "oklch(39% 0.0246 60.76)",
+          "oklch(51% 0.0289 60.76)",
+          "oklch(63% 0.0289 60.76)",
+          "oklch(75% 0.0231 60.76)",
+          "oklch(87% 0.0144 60.76)",
+          "oklch(95% 0.0058 60.76)"
+        ]
+      },
+      "chapter-light-3": {
+        "role": "secondary",
+        "displayName": "Chapter Light 3",
+        "tonalRamp": [
+          "oklch(15% 0.0092 353.55)",
+          "oklch(27% 0.0157 353.55)",
+          "oklch(39% 0.0223 353.55)",
+          "oklch(51% 0.0262 353.55)",
+          "oklch(63% 0.0262 353.55)",
+          "oklch(75% 0.0210 353.55)",
+          "oklch(87% 0.0131 353.55)",
+          "oklch(95% 0.0052 353.55)"
+        ]
+      },
+      "cover-apricot": {
+        "role": "neutral",
+        "displayName": "Cover Apricot",
+        "tonalRamp": [
+          "oklch(15% 0.0086 71.46)",
+          "oklch(27% 0.0147 71.46)",
+          "oklch(39% 0.0209 71.46)",
+          "oklch(51% 0.0245 71.46)",
+          "oklch(63% 0.0245 71.46)",
+          "oklch(75% 0.0196 71.46)",
+          "oklch(87% 0.0123 71.46)",
+          "oklch(95% 0.0049 71.46)"
+        ]
+      },
+      "chapter-band-1": {
+        "role": "secondary",
+        "displayName": "Chapter Band 1",
+        "tonalRamp": [
+          "oklch(15% 0.0620 267.41)",
+          "oklch(27% 0.1062 267.41)",
+          "oklch(39% 0.1505 267.41)",
+          "oklch(51% 0.1770 267.41)",
+          "oklch(63% 0.1770 267.41)",
+          "oklch(75% 0.1416 267.41)",
+          "oklch(87% 0.0885 267.41)",
+          "oklch(95% 0.0354 267.41)"
+        ]
+      },
+      "chapter-band-3": {
+        "role": "secondary",
+        "displayName": "Chapter Band 3",
+        "tonalRamp": [
+          "oklch(15% 0.0634 7.81)",
+          "oklch(27% 0.1087 7.81)",
+          "oklch(39% 0.1540 7.81)",
+          "oklch(51% 0.1812 7.81)",
+          "oklch(63% 0.1812 7.81)",
+          "oklch(75% 0.1450 7.81)",
+          "oklch(87% 0.0906 7.81)",
+          "oklch(95% 0.0362 7.81)"
+        ]
+      },
+      "reference-light-1": {
+        "role": "secondary",
+        "displayName": "Reference Light 1",
+        "tonalRamp": [
+          "oklch(15% 0.0097 272.51)",
+          "oklch(27% 0.0167 272.51)",
+          "oklch(39% 0.0237 272.51)",
+          "oklch(51% 0.0278 272.51)",
+          "oklch(63% 0.0278 272.51)",
+          "oklch(75% 0.0223 272.51)",
+          "oklch(87% 0.0139 272.51)",
+          "oklch(95% 0.0056 272.51)"
+        ]
+      },
+      "reference-light-2": {
+        "role": "secondary",
+        "displayName": "Reference Light 2",
+        "tonalRamp": [
+          "oklch(15% 0.0123 60.41)",
+          "oklch(27% 0.0210 60.41)",
+          "oklch(39% 0.0298 60.41)",
+          "oklch(51% 0.0350 60.41)",
+          "oklch(63% 0.0350 60.41)",
+          "oklch(75% 0.0280 60.41)",
+          "oklch(87% 0.0175 60.41)",
+          "oklch(95% 0.0070 60.41)"
+        ]
+      },
+      "reference-light-3": {
+        "role": "secondary",
+        "displayName": "Reference Light 3",
+        "tonalRamp": [
+          "oklch(15% 0.0097 351.96)",
+          "oklch(27% 0.0167 351.96)",
+          "oklch(39% 0.0236 351.96)",
+          "oklch(51% 0.0278 351.96)",
+          "oklch(63% 0.0278 351.96)",
+          "oklch(75% 0.0222 351.96)",
+          "oklch(87% 0.0139 351.96)",
+          "oklch(95% 0.0056 351.96)"
+        ]
+      },
+      "field-border": {
+        "role": "neutral",
+        "displayName": "Field Border",
+        "tonalRamp": [
+          "oklch(15% 0.0060 86.45)",
+          "oklch(27% 0.0103 86.45)",
+          "oklch(39% 0.0146 86.45)",
+          "oklch(51% 0.0172 86.45)",
+          "oklch(63% 0.0172 86.45)",
+          "oklch(75% 0.0138 86.45)",
+          "oklch(87% 0.0086 86.45)",
+          "oklch(95% 0.0034 86.45)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "Page headings and expressive workbook introductions."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Default section heading; task sheets use the documented smaller variant."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Third-level reading headings."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Screen reading; responsive and print overrides remain in the stylesheet."
+      },
+      "small": {
+        "displayName": "Small",
+        "purpose": "Source notes and secondary reading text."
+      },
+      "button": {
+        "displayName": "Button",
+        "purpose": "Compact labelled actions."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "chapter-hover",
+        "value": "background .2s ease",
+        "purpose": "Only explicit animated colour transition; disabled for reduced motion."
+      },
+      {
+        "name": "document-scroll",
+        "value": "smooth",
+        "purpose": "Anchor scrolling; auto for reduced motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-masthead",
+        "value": "1600px",
+        "query": "(min-width:1600px)"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1000px",
+        "query": "(max-width:1000px)"
+      },
+      {
+        "name": "mobile",
+        "value": "720px",
+        "query": "(max-width:720px)"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "description": "Ink action with fuchsia hover.",
+      "html": "<button class=\"ds-button ds-dark\" type=\"button\">Print / save as PDF</button>",
+      "css": ".ds-button{display:inline-flex;justify-content:center;align-items:center;gap:.5rem;min-height:46px;padding:.65rem 1.05rem;border:1px solid var(--ink,#292720);border-radius:4px;color:var(--ink,#292720);font:600 .9rem/1.4 \"DM Sans\",sans-serif;text-decoration:none;cursor:pointer}.ds-button:hover{background:var(--yellow,#e8ed86)}.ds-button:focus-visible{outline:3px solid var(--pink,#b41f55);outline-offset:5px}.ds-dark{background:var(--ink,#292720);color:var(--white,#fffefa)}.ds-dark:hover{background:var(--pink,#b41f55);border-color:var(--pink,#b41f55);color:white}.ds-button:disabled{cursor:default;opacity:.55}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary button",
+      "kind": "button",
+      "description": "Outlined action with studio-yellow hover.",
+      "html": "<button class=\"ds-button\" type=\"button\">Show all task sheets</button>",
+      "css": ".ds-button{display:inline-flex;justify-content:center;align-items:center;gap:.5rem;min-height:46px;padding:.65rem 1.05rem;border:1px solid var(--ink,#292720);border-radius:4px;color:var(--ink,#292720);font:600 .9rem/1.4 \"DM Sans\",sans-serif;text-decoration:none;cursor:pointer}.ds-button:hover{background:var(--yellow,#e8ed86)}.ds-button:focus-visible{outline:3px solid var(--pink,#b41f55);outline-offset:5px}.ds-button{background:transparent}.ds-button:hover{background:var(--yellow,#e8ed86)}.ds-button:disabled{cursor:default;opacity:.55}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Search field",
+      "kind": "input",
+      "description": "Labelled clean-paper search control.",
+      "html": "<label class=\"ds-label\" for=\"ds-search\">Find a task or standard</label><input class=\"ds-field\" type=\"search\" id=\"ds-search\" placeholder=\"Try 1.3, AS91316 or ideas\">",
+      "css": ".ds-label{display:block;font:600 .82rem \"DM Sans\",sans-serif;margin-bottom:.4rem}.ds-field{width:100%;min-height:48px;background:var(--white,#fffefa);border:1px solid var(--field-border,#8c877c);border-radius:4px;padding:.55rem .75rem;color:var(--ink,#292720);font:.95rem \"DM Sans\",sans-serif;caret-color:var(--pink,#b41f55)}.ds-field::placeholder{color:var(--muted,#615e54);opacity:1}.ds-field:focus-visible{outline:3px solid var(--pink,#b41f55);outline-offset:5px}",
+      "refersTo": "field"
+    },
+    {
+      "name": "Working notes",
+      "kind": "input",
+      "description": "Reflection field; live persistence belongs to the page script.",
+      "html": "<label class=\"ds-notes-label\" for=\"ds-intention\">My working intention</label><textarea class=\"ds-notes\" id=\"ds-intention\" rows=\"3\" placeholder=\"What am I trying to communicate or investigate?\"></textarea>",
+      "css": ".ds-notes-label{display:block;font:600 .9rem \"DM Sans\",sans-serif;margin-bottom:.4rem}.ds-notes{width:100%;min-height:100px;padding:.75rem .9rem;resize:vertical;border:1px solid var(--field-border,#8c877c);background:var(--white,#fffefa);color:var(--ink,#292720);border-radius:4px;font:1rem/1.6 \"DM Sans\",sans-serif;caret-color:var(--pink,#b41f55)}.ds-notes::placeholder{color:var(--muted,#615e54);opacity:1}.ds-notes:focus-visible{outline:3px solid var(--pink,#b41f55);outline-offset:5px}",
+      "refersTo": "notes-field"
+    },
+    {
+      "name": "Main navigation",
+      "kind": "nav",
+      "description": "Ordinary wrapping links with a fuchsia active rule.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Main navigation\"><a class=\"ds-current\" href=\"level-1.html\">Level 1</a><a href=\"level-2.html\">Level 2</a><a href=\"level-3.html\">Level 3</a><a href=\"artists.html\">Artists</a><a href=\"teacher.html\">For teachers</a></nav>",
+      "css": ".ds-nav{display:flex;flex-wrap:wrap;gap:.5rem 1.85rem;align-items:center;font-family:\"DM Sans\",sans-serif}.ds-nav a{font-size:.9rem;color:var(--ink,#292720);text-decoration:none;padding:.4rem 0;border-bottom:2px solid transparent;font-weight:500}.ds-nav a:hover,.ds-nav .ds-current{border-bottom-color:var(--pink,#b41f55);color:var(--pink,#b41f55)}.ds-nav a:focus-visible{outline:3px solid var(--pink,#b41f55);outline-offset:5px}"
+    },
+    {
+      "name": "Standard reference",
+      "kind": "custom",
+      "description": "Circular standard number, shown in Level 1 colours.",
+      "html": "<a class=\"ds-ref\" href=\"task-1-2.html\">1.2</a>",
+      "css": ".ds-ref{display:inline-flex;align-items:center;justify-content:center;border-radius:50%;width:60px;height:60px;font:700 1.7rem Bricolage,sans-serif;text-decoration:none;background:var(--reference-light-1,#e2e8fc);color:var(--cobalt,#2443ac)}.ds-ref:hover{background:var(--ink,#292720);color:white}.ds-ref:focus-visible{outline:3px solid var(--pink,#b41f55);outline-offset:5px}",
+      "refersTo": "reference-1"
+    },
+    {
+      "name": "Chapter link",
+      "kind": "nav",
+      "description": "Large level link from the home chapter strip.",
+      "html": "<a class=\"ds-chapter\" href=\"level-1.html\"><span>Level 1</span><strong>Observe &amp; explore</strong><span class=\"ds-chapter-small\">1.2 · 1.3 · 1.4</span></a>",
+      "css": ".ds-chapter{padding:1.5rem 1.6rem;text-decoration:none;display:flex;flex-direction:column;font-family:Bricolage,\"DM Sans\",sans-serif;line-height:1.2;transition:background .2s ease;background:var(--chapter-band-1,#2c49b7);color:white}.ds-chapter>span:first-child{font-size:1.8rem;font-weight:700;letter-spacing:-.03em}.ds-chapter strong{font:500 .9rem \"DM Sans\",sans-serif;margin-top:.6rem}.ds-chapter .ds-chapter-small{font:.82rem \"DM Sans\",sans-serif;margin-top:.8rem}.ds-chapter:hover{background:var(--ink,#292720);color:white}.ds-chapter:focus-visible{outline:3px solid var(--pink,#b41f55);outline-offset:5px}@media(prefers-reduced-motion:reduce){.ds-chapter{transition:none}}"
+    },
+    {
+      "name": "Evidence row",
+      "kind": "custom",
+      "description": "Ruled evidence check with completed text state; page script adds count and storage.",
+      "html": "<ul class=\"ds-evidence\"><li><label><input type=\"checkbox\"><span>Dated progress records and source acknowledgements.</span></label></li></ul>",
+      "css": ".ds-evidence{list-style:none;padding:0;border-top:1px solid var(--line,#d2cfc5);margin:1rem 0 1.8rem;color:var(--ink,#292720);font:1rem/1.65 \"DM Sans\",sans-serif}.ds-evidence li{border-bottom:1px solid var(--line,#d2cfc5);padding:1rem 0}.ds-evidence label{display:flex;align-items:start;gap:.85rem;cursor:pointer}.ds-evidence input{width:21px;height:21px;flex:none;margin-top:.25rem;accent-color:var(--chapter,#2443ac)}.ds-evidence input:checked+span{text-decoration:line-through;color:var(--muted,#615e54)}.ds-evidence input:focus-visible{outline:3px solid var(--pink,#b41f55);outline-offset:5px}"
+    },
+    {
+      "name": "Studio checkpoint",
+      "kind": "custom",
+      "description": "Square yellow teaching conversation panel.",
+      "html": "<div class=\"ds-checkpoint\"><h3>A useful studio conversation</h3><p>Put two related works side by side. Describe what changed, show the evidence and explain what you will investigate next.</p></div>",
+      "css": ".ds-checkpoint{background:var(--yellow,#e8ed86);padding:1.2rem 1.4rem;font:1rem/1.65 \"DM Sans\",sans-serif}.ds-checkpoint h3{font:700 1.27rem/1.25 Bricolage,\"DM Sans\",sans-serif;margin:0 0 .65rem}.ds-checkpoint p{color:#37391f;margin:0}",
+      "refersTo": "checkpoint"
+    }
+  ],
+  "narrative": {
+    "northStar": "Colourful art-room workbook",
+    "overview": "The Painting Room uses the confirmed colourful art-room workbook direction: personable display lettering, warm paper, vivid chapter fields and calm reading columns. It supports reading, making notes and printing classroom sheets. Real artworks retain their natural proportions and visible attribution.\n\nColour indexes levels and distinguishes useful teaching furniture; long task prose stays on paper. Standard numbers remain conspicuous throughout the ordinary link navigation. The same language carries the library, level introductions, task sheets, artist directory and teacher guidance.",
+    "keyCharacteristics": [
+      "Warm paper and ink, with fuchsia identity and three chapter themes.",
+      "Large Bricolage headings paired with readable DM Sans.",
+      "Flat, ruled document surfaces and compact native controls.",
+      "Numbered standards, numbered studio steps and a locally saved evidence checklist.",
+      "Print-specific type, spacing and source addresses."
+    ],
+    "rules": [
+      {
+        "name": "The Chapter Index Rule",
+        "body": "Use cobalt for Level 1, deep orange for Level 2 and fuchsia for Level 3 task headings, reference numbers and pale chapter fields. The home chapter strip is its own existing treatment: cobalt-blue, yellow and raspberry. Do not infer a yellow Level 2 task theme from that strip.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reading Column Rule",
+        "body": "Keep task prose within the established 70ch reading width on wide screens. Collapse the navigation rail above the reading column on narrow screens.",
+        "section": "typography"
+      },
+      {
+        "name": "The Flat Workbook Rule",
+        "body": "Use paper colour, one-pixel rules and spacing to separate content. The shipped system has no box shadows.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "Do use the established chapter theme for numbered standards and teaching accents.",
+      "Do preserve native links, labelled form controls and the visible keyboard focus outline.",
+      "Do show artwork at its natural aspect ratio with an artist, title and source/rights caption.",
+      "Do retain the checklist count, browser-storage feedback and clear action when extending saved working notes.",
+      "Do check print styles when extending a task sheet; source URLs and readable evidence rows must survive."
+    ],
+    "donts": [
+      "Don't spread chapter colour over the long reading prose.",
+      "Don't replace standard numbers with decorative identifiers.",
+      "Don't add shadows or rounded card shells to ordinary document sections.",
+      "Don't imply that completing an evidence checklist guarantees a grade or submits evidence."
+    ]
+  }
+}
