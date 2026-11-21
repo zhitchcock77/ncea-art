@@ -1,4 +1,4 @@
-# The Painting Room
+# The Art Room
 
 A static NCEA Painting resource site for a New Zealand secondary art classroom.
 

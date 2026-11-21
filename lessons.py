@@ -186,7 +186,7 @@ def lesson_pages(n, lesson):
  {block('Language to make visible',lesson['words'])}
  <div class="lesson-adapt">{block('Support & access',lesson['support'])}{block('Extend the learning',lesson['stretch'])}</div>
  <div class="lesson-writing"><h3>Class adjustments</h3><div></div></div>
- <p class="paper-footer">The Painting Room · 1.2 · Lesson {n} · Teaching brief 1 of 2</p>
+ <p class="paper-footer">The Art Room · 1.2 · Lesson {n} · Teaching brief 1 of 2</p>
  </section>
  <section class="lesson-paper lesson-sequence" aria-labelledby="sequence-{n}">
  <h2 id="sequence-{n}">Lesson {n}: classroom sequence</h2>
@@ -195,7 +195,7 @@ def lesson_pages(n, lesson):
  {block('Check for learning',lesson['evidence'])}
  {block('Before the next lesson',lesson['next'])}
  <div class="lesson-writing"><h3>Teacher reflection / next steps</h3><div></div></div>
- <p class="paper-footer">The Painting Room · 1.2 · Lesson {n} · Classroom sequence 2 of 2</p>
+ <p class="paper-footer">The Art Room · 1.2 · Lesson {n} · Classroom sequence 2 of 2</p>
  </section></article>'''
 
 
@@ -208,7 +208,7 @@ def unit_pages(standard, exemplar, artists):
  <h3>How to use the sequence</h3><p>Twelve lesson plans of 50 minutes each. Repeat Lessons 8 and 10 with fresh goals to provide sustained painting time, and revisit preparation or reviews when needed. At three lessons a week, 24–30 sessions allows around 8–10 weeks: the twelve plans plus 12–18 additional studio sessions. Adjust to your timetable, students and the scope of the work.</p>
  <p>Place the midpoint review after a meaningful period of production. Leave Lessons 11 and 12 until the work is ready; add studio time rather than reduce the substantial scope to fit a fixed lesson count.</p>
  <table class="lesson-map"><caption>Teaching route · repeat studio sessions as needed</caption><thead><tr><th scope="col">Lesson</th><th scope="col">Focus</th></tr></thead><tbody>{rows}</tbody></table>
- <p class="paper-footer">The Painting Room · 1.2 · Unit overview 1 of 2</p></section>
+ <p class="paper-footer">The Art Room · 1.2 · Unit overview 1 of 2</p></section>
  <section class="lesson-paper unit-preparation"><h2>Prepare the unit</h2>
  <h3>Before the first lesson</h3><p>Confirm the current standard, exemplars, local assessment conditions, dates and authenticity procedures. Agree available materials, drying and storage space, and accessible source-gathering options. Plan a suitable water-based painting approach and follow school studio procedures.</p>
  <h3>Materials across the unit</h3><p>Drawing books, pencils, scrap paper and viewfinders; student-made photographs and observations; approved acrylic or watercolour, brushes, palettes, water pots and rags; trial surfaces and agreed final paper or board; permitted artist references; a way to date progress records. Photography and projection are optional: prepare references in advance for an offline class.</p>
@@ -218,7 +218,7 @@ def unit_pages(standard, exemplar, artists):
  <p>Model processes on separate material. Adapt assistance to local conditions and approved access arrangements. Students choose their subject, composition, methods and revisions. Keep normal internal moderation and assessment records.</p>
  <h3>Primary assessment references</h3><ul class="lesson-sources"><li><a href="{e(standard,quote=True)}">NZQA AS91913 · achievement standard (PDF)</a></li><li><a href="{e(exemplar,quote=True)}">NZQA AS91913 · annotated exemplars</a></li></ul>
  <p class="small">Standard checked 22 November 2026. Confirm current guidance before assessment. Independent teaching resources; not NZQA-approved assessments.</p>
- <p class="paper-footer">The Painting Room · 1.2 · Unit overview 2 of 2</p></section>'''
+ <p class="paper-footer">The Art Room · 1.2 · Unit overview 2 of 2</p></section>'''
 
 
 def build_lesson_pages(write, standard_url, exemplar_url, task, artists):

@@ -1,4 +1,4 @@
-# Painting Room resource library
+# Art Room resource library
 MODE: Read.
 FORM: Colourful art-room workbook, explicitly chosen by the user. seed:ad0503c01355c9c5; assigned grounded candidate 5.
 

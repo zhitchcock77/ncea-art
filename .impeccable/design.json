@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "generatedAt": "2026-11-21T20:07:54.562336+00:00",
-  "title": "Design System: The Painting Room",
+  "title": "Design System: The Art Room",
   "extensions": {
     "colorMeta": {
       "paper": {
@@ -415,7 +415,7 @@
   ],
   "narrative": {
     "northStar": "Colourful art-room workbook",
-    "overview": "The Painting Room uses the confirmed colourful art-room workbook direction: personable display lettering, warm paper, vivid chapter fields and calm reading columns. It supports reading, making notes and printing classroom sheets. Real artworks retain their natural proportions and visible attribution.\n\nColour indexes levels and distinguishes useful teaching furniture; long task prose stays on paper. Standard numbers remain conspicuous throughout the ordinary link navigation. The same language carries the library, level introductions, task sheets, artist directory and teacher guidance.",
+    "overview": "The Art Room uses the confirmed colourful art-room workbook direction: personable display lettering, warm paper, vivid chapter fields and calm reading columns. It supports reading, making notes and printing classroom sheets. Real artworks retain their natural proportions and visible attribution.\n\nColour indexes levels and distinguishes useful teaching furniture; long task prose stays on paper. Standard numbers remain conspicuous throughout the ordinary link navigation. The same language carries the library, level introductions, task sheets, artist directory and teacher guidance.",
     "keyCharacteristics": [
       "Warm paper and ink, with fuchsia identity and three chapter themes.",
       "Large Bricolage headings paired with readable DM Sans.",

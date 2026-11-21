@@ -1,5 +1,5 @@
 ---
-name: The Painting Room
+name: The Art Room
 description: Colourful art-room workbook for NCEA Painting.
 colors:
   paper: "#faf8f2"
@@ -108,13 +108,13 @@ components:
     backgroundColor: "{colors.chapter-light-1}"
     padding: "1rem 1.2rem"
 ---
-# Design System: The Painting Room
+# Design System: The Art Room
 
 ## Overview
 
 **Creative North Star: "Colourful art-room workbook"**
 
-The Painting Room uses the confirmed colourful art-room workbook direction: personable display lettering, warm paper, vivid chapter fields and calm reading columns. It supports reading, making notes and printing classroom sheets. Real artworks retain their natural proportions and visible attribution.
+The Art Room uses the confirmed colourful art-room workbook direction: personable display lettering, warm paper, vivid chapter fields and calm reading columns. It supports reading, making notes and printing classroom sheets. Real artworks retain their natural proportions and visible attribution.
 
 Colour indexes levels and distinguishes useful teaching furniture; long task prose stays on paper. Standard numbers remain conspicuous throughout the ordinary link navigation. The same language carries the library, level introductions, task sheets, artist directory and teacher guidance.
 
