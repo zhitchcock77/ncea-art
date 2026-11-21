@@ -1,5 +1,5 @@
 /* Teacher plans inherit the workbook; pages also serve as A4 print masters. */
-.lesson-page{--chapter:var(--cobalt);--chapter-light:var(--chapter-light-1)}
+.lesson-page{--chapter:var(--cobalt)}
 .lesson-tools,.lesson-index,.lesson-neighbours,.lesson-screen-title{margin:2rem var(--space)}
 .lesson-tools{display:flex;flex-wrap:wrap;align-items:center;gap:1rem 1.4rem}
 .lesson-tools p{flex-basis:100%;font-size:.9rem;max-width:70ch;margin:0}
