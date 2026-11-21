@@ -10,3 +10,17 @@
 .directory-note{max-width:80ch;font-size:.9rem;color:var(--muted);margin:2rem 0 0}.artist-group{scroll-margin-top:2rem}.artist-group-intro{padding:2.5rem 0 1.7rem;border-bottom:1px solid var(--ink)}.artist-group-intro>p{max-width:70ch;margin-bottom:0}.artist-group-intro h2{font-size:clamp(1.9rem,3.5vw,2.9rem);color:var(--pink)}.group-artist-index{margin-top:1rem}.artist-study h3{font-size:2.1rem;letter-spacing:-.025em}.artist-study-text{grid-template-columns:.8fr 1.2fr;align-items:start;padding:2.2rem 0}.artist-study-text .artist-exploration{max-width:70ch}.artist-investigation{font-size:.95rem}.artist-tasks{margin-top:1rem}.model-source{margin-top:.5rem}.model-brief{padding:1rem 1.2rem;background:var(--chapter-light)}
 @media(max-width:720px){.artist-group-intro{padding-top:2.5rem}.artist-study-text{grid-template-columns:1fr;gap:.6rem}.artist-study h3{font-size:1.8rem}.artist-identity .artist-tasks{margin-top:.5rem}.artist-study-text .artist-place{margin-bottom:.2rem}}
 @media print{.directory-note{font-size:9pt;margin-top:3mm}.artist-group-intro{padding:6mm 0 4mm}.artist-study h3{font-size:16pt!important}.artist-study-text{padding:5mm 0;gap:5mm;grid-template-columns:1fr 2fr;break-inside:avoid}.artist-investigation{font-size:10pt}.group-artist-index{font-size:9pt}.model-brief{background:none;border:1px solid #999;padding:3mm}.model-source{font-size:8.5pt}.artist-group-intro h2{color:#000}.artist-exploration a[href^="http"]:after{content:' — ' attr(href);font-size:7.5pt;overflow-wrap:anywhere}}
+
+/* Teacher login uses the existing workbook controls. */
+.teacher-gate{max-width:42rem;margin:3rem auto;padding:0 var(--space)}
+.teacher-gate h1{font-size:clamp(2.65rem,6vw,4rem)}
+.teacher-gate form{max-width:28rem}
+.teacher-gate label{display:block;font-weight:600;margin-bottom:.4rem}
+.teacher-gate input{display:block;width:100%;min-height:48px;padding:.55rem .75rem;border:1px solid #8c877c;border-radius:4px;background:var(--white);margin-bottom:1rem}
+.teacher-gate input[aria-invalid="true"]{border-color:var(--pink)}
+.teacher-login-error{color:var(--pink);margin:.8rem 0 0}
+.teacher-session{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem;margin:1.5rem var(--space)}
+.teacher-session p{margin:0;flex:1 1 16rem}
+.teacher-notes .teacher-gate{padding:0;margin:1.5rem 0 0}
+.teacher-notes .teacher-session{margin:0 0 1.5rem}
+@media print{.teacher-session,.teacher-gate form{display:none!important}}

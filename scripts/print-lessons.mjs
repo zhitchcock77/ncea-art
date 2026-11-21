@@ -76,6 +76,13 @@ try {
   }) ];
   for (const [html, pdf] of files) {
     await navigate(html);
+    // Restore teacher access before generating the teacher print masters.
+    await evaluate(`(() => {
+      const hash = 'a319b07f627c969fd67f535f4d921cae786374b101c3f1ec58c38f1b8eccfc19';
+      sessionStorage.setItem('painting-room:teacher:v1', hash);
+      window.dispatchEvent(new Event('pageshow'));
+      if (document.querySelector('[data-teacher-content]').hidden) throw new Error('Teacher print content is locked');
+    })()`);
     const printed = await command('Page.printToPDF', { printBackground: false, displayHeaderFooter: false, preferCSSPageSize: true });
     await writeFile(join(root, 'dist', 'print', pdf), Buffer.from(printed.data, 'base64'));
     console.log(`Printed ${pdf}`);

@@ -7,18 +7,24 @@ Open **dist/index.html** directly, or serve `dist` with `python3 -m http.server 
 ## Included
 
 - Level 1, 2 and 3 overview pages.
-- Nine individual task sheets: 1.2–1.4, 2.2–2.4 and 3.2–3.4.
+- Nine individual task sheets: 1.2–1.4, 2.2–2.4 and 3.2–3.4, each with suggested artwork sizes, quantities and workbook page ranges.
 - 24 artist models: seven contemporary Māori, five other contemporary Aotearoa, five contemporary international and seven historical connections.
 - Contemporary models integrated into every task sheet, with practical painting investigations, primary source links and selected artist films.
 - Licensed or unrestricted example images, teacher guidance and NZQA sources.
 - Twelve 50-minute teacher lesson plans for 1.2, with individual PDFs and a complete 26-page A4 pack.
 - A4 printing, optional teacher notes, searchable task library, browser-only working notes and evidence checks.
 
-The finished pages work without JavaScript. JavaScript adds filtering, notes and print controls. Fonts and images are local; external artist and NZQA references require internet access.
+Student pages work without JavaScript. JavaScript adds filtering, notes, print controls and the teacher login. Fonts and images are local; external artist and NZQA references require internet access.
 
 ## Edit
 
 Edit `content.py` for task content and artist metadata, or `lessons.py` for teacher lesson plans, then run `python3 build.py` to regenerate the 28 HTML pages. Edit `dist/assets/site.css` and `dist/assets/site.js` directly for presentation and interactions. No dependency installation or web build is required. After changing lesson content or print styles, run `node scripts/print-lessons.mjs` to refresh the downloadable PDFs (requires Chromium).
+
+## Teacher access
+
+The teacher page, lesson-plan pages and teacher notes on task sheets require the shared teacher password. The browser compares a SHA-256 hash; the password itself is not stored in the site files. Access is remembered in session storage for the current tab. Use **Lock teacher area** before sharing the tab. If browser storage is unavailable, unlocking still works for the current page.
+
+This is a simple deterrent on a static site. The HTML source and direct PDF URLs remain accessible; it is not suitable for confidential material. Teacher content stays hidden when JavaScript is disabled. To change the password, replace its SHA-256 digest in `dist/assets/teacher-auth.js` and `scripts/print-lessons.mjs`.
 
 ## Assessment reference
 
